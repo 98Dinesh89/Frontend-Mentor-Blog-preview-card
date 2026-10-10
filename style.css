@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/static/Figtree-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("./assets/fonts/static/Figtree-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  min-height: 100vh;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  font-family: "Figtree", sans-serif;
+}
+
+.Container {
+  width: 100%;
+  max-width: 384px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: white;
+  padding: 24px;
+  text-align: left;
+  box-shadow: 10px 10px 0px 0px black;
+}
+
+.Imagebox img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.Textbox p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.Tag {
+  background-color: hsl(47, 88%, 63%);
+  width: 90px;
+  height: 25px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+  margin-top: 25px;
+  font-weight: 800;
+}
+
+.Date {
+  color: hsl(0, 0%, 7%);
+}
+
+.Description {
+  color: hsl(0, 0%, 42%);
+}
+
+.Icon img {
+  width: 40px;
+  height: 40px;
+}
+
+.Icon {
+  display: flex;
+  align-items: center;
+}
+
+.Icon p {
+  margin: 0px;
+  margin-left: 15px;
+  font-weight: 800;
+}
